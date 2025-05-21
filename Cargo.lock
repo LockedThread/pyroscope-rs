@@ -2025,7 +2025,7 @@ dependencies = [
 [[package]]
 name = "py-spy"
 version = "0.4.0"
-source = "git+https://github.com/grafana/py-spy?rev=062d827#45805efd03923d9a79e3d3792fbb0d42ab66591a"
+source = "git+https://github.com/LockedThread/py-spy?branch=master#afe2e91cb4f1062f1f30168475c69c741d340e4f"
 dependencies = [
  "anyhow",
  "chrono",
@@ -3870,3 +3870,8 @@ dependencies = [
  "quote",
  "syn 2.0.101",
 ]
+
+[[patch.unused]]
+name = "py-spy"
+version = "0.4.0"
+source = "git+https://github.com/LockedThread/py-spy#afe2e91cb4f1062f1f30168475c69c741d340e4f"
